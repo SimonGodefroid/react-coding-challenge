@@ -1,0 +1,21 @@
+{
+  "extends": [
+    "standard",
+    "plugin:node/recommended",
+    "prettier",
+    "prettier/standard"
+  ],
+  "plugins": [
+    "prettier",
+    "import",
+    "standard"
+  ],
+  "env": {
+    "node": true,
+    "jest": true
+  },
+  "rules": {
+    "node/no-unpublished-require": 0,
+    "prettier/prettier": 2
+  }
+}
